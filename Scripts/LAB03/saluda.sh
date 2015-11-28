@@ -6,6 +6,9 @@ else
 	if [ $1 == "Olger" ]
 	then
 		echo "Hola Olger"
+	elif [ $1 == "Nadie" ]
+	then
+		echo "No puedo saludar a nadie.."
 	else
 		echo "No se quien eres"
 		read nombre
